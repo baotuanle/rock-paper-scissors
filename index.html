@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <header><h1 class="title">ROCK PAPER SCISSORS</h1></header>
+    <div class="main">
+      <div class="scoreboard">
+        <h2>Choose your fighter</h2>
+        <h1>First player to get 5 wins is the winner of the battle</h1>
+      </div>
+      <div class="scores">
+        <p class="score" id="playerscore">Player: 0</p>
+        <p class="score" id="computerscore">Computer: 0</p>
+      </div>
+      <div id="result"></div>
+      <div class="buttons">
+        <button class="button" id="rock">✊</button>
+        <button class="button" id="paper">✋</button>
+        <button class="button" id="scissors">✌</button>
+      </div>
+      <button class="playagain">Play Again</button>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
